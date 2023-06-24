@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3100
 
-CMD ["uvicorn", "main:app","--port","3100"]
+CMD ["gunicorn", "main:app"]
