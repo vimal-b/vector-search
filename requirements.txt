@@ -1,0 +1,8 @@
+openai
+loguru
+fastapi
+uvicorn
+pydantic
+python-dotenv
+qdrant-client
+tenacity
